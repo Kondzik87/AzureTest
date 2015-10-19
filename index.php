@@ -19,6 +19,23 @@
 
         /* I don’t get printed either
        and neither do I */
+    $wantedgood  = "mugs";
+
+    switch ($wantedgood ) {
+        case "specs":
+            echo "You have to be 16 to buyspecs";
+            break;
+        case "mugs":
+            echo "You have to be 18 to buy mugs";
+            break;
+        case "sausage rolls":
+            echo "You always can buy sausage rolls";
+            break;
+        default:
+            echo "All the hobbits have gone home";
+    }
+
+
 
     ?>
 
@@ -32,6 +49,8 @@
         print "Who are you?";
     }
     ?>
+
+
 
 </p>
 
