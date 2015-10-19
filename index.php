@@ -14,7 +14,7 @@
         $myage = 111;
         echo "My name is " . $myname . " and I am " . $myage;
 
-        echo " I get printed!";
+        echo " I get printed! ";
         // I don't! I'm a comment.
 
         /* I don’t get printed either
