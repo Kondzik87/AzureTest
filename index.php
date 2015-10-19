@@ -23,14 +23,17 @@
     $mugs = "mugs" ;
     $sausage = "sausage rolls" ;
     $specs= "specs" ;
+    echo  $mugs;
     switch ($wantedgood ) {
         case "specs":
             echo "You have to be 16 to buy". $specs;
             break;
         case "mugs":
+            $mugs = "hugs";
             echo "You have to be 18 to buy ". $mugs;
             break;
         case "sausage rolls":
+            unset ($sausage);
             echo "You always can buy ". $sausage;
             break;
         default:
