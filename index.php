@@ -60,6 +60,13 @@
     <?php
     $myArray = array("do", "re", "mi");
     echo $myArray[0];
+
+    $myArray[1] = "la";
+
+    print_r($myArray);
+
+    unset($array[2]);
+    print_r($myArray);
     ?>
 
 </p>
