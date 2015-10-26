@@ -59,7 +59,7 @@
 
     <?php
     $myArray = array("do", "re", "mi");
-    echo $myage[0];
+    echo $myArray[0];
     ?>
 
 </p>
