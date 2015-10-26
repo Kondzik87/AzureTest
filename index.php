@@ -55,7 +55,12 @@
     }
     ?>
 
+<br><br>
 
+    <?php
+    $myArray = array("do", "re", "mi");
+    echo $myage[0];
+    ?>
 
 </p>
 
